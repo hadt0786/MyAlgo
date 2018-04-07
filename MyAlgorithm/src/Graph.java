@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-class Graph{
+class Graphs{
 	
 	public int[][] buildUG(int n,int[] v1,int[] v2)
 	{
@@ -274,13 +274,15 @@ class Graph{
 		}
 		return new int[][]{ord, str, ext, dep};
 	}
-	
+}
+
+public class Graph{
 
 
 
 	public static void main(String[] args)
 	{
-		Graph gu = new Graph();
+		Graphs gu = new Graphs();
 		int n = 7;
 		int[] v1 = {0, 0, 1, 1, 1, 4};
 		int[] v2 = {1, 2, 3, 5, 6, 3};
